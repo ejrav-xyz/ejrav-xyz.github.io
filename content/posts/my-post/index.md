@@ -1,7 +1,7 @@
 ---
 title: "My Post"
 date: 2023-02-06T12:20:07+01:00
-draft: true
+draft: false
 sidebar: true
 tags: ["Tag"]
 hero: ""
