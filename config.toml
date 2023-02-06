@@ -3,7 +3,21 @@ languageCode = 'en-us'
 title = 'ejrav.xyz'
 theme = "PaperMod"
 
+
 enableRobotsTXT = true
 buildDrafts = false
 buildFuture = false
 buildExpired = false
+
+
+[params.homeInfoParams]    
+Title = "Hi there wave"
+Content = "Can be Info, links, about..."
+
+[[params.socialIcons]]
+name = "<platform>"
+url = "<link>"
+
+[[params.socialIcons]]
+name = "<platform 2>"
+url = "<link 2>"
