@@ -1,3 +1,7 @@
 [submodule "themes/freelancer"]
 	path = themes/freelancer
 	url = https://github.com/joseph-mccarthy/hugo-bootstrap-freelancer-template
+
+[submodule "themes/PaperMod"]
+	path = themes/PaperMod
+	url = https://github.com/adityatelange/hugo-PaperMod
