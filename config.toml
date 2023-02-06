@@ -1,0 +1,9 @@
+baseURL = 'http://ejrav.xyz/'
+languageCode = 'en-us'
+title = 'ejrav.xyz'
+theme = "PaperMod"
+
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+buildExpired = false
