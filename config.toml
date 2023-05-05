@@ -15,9 +15,9 @@ Title = "Hi there wave"
 Content = "Can be Info, links, about..."
 
 [[params.socialIcons]]
-name = "<platform>"
-url = "<link>"
+name: github
+url: "https://github.com/ejrav-xyz"
 
 [[params.socialIcons]]
-name = "<platform 2>"
-url = "<link 2>"
+name = twitter
+url = "https://twitter.com/ejravv"
