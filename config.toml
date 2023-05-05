@@ -15,9 +15,13 @@ Title = "Hi there wave"
 Content = "Can be Info, links, about..."
 
 [[params.socialIcons]]
-name = github
+name = "github"
 url = "https://github.com/ejrav-xyz"
 
 [[params.socialIcons]]
-name = twitter
+name = "twitter"
 url = "https://twitter.com/ejravv"
+
+[[params.socialIcons]]
+name = "Rss"
+url = "index.xml"
