@@ -1,3 +1,1 @@
 User-agent: *
-Disallow:
-Sitemap: http://ejrav.xyz/sitemap.xml
