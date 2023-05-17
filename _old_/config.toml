@@ -1,0 +1,27 @@
+baseURL = 'http://ejrav.xyz/'
+languageCode = 'en-us'
+title = 'ejrav.xyz'
+theme = "tailbliss"
+
+
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+
+
+[params.homeInfoParams]    
+Title = "Hi there wave"
+Content = "Can be Info, links, about..."
+
+[[params.socialIcons]]
+name = "github"
+url = "https://github.com/ejrav-xyz"
+
+[[params.socialIcons]]
+name = "twitter"
+url = "https://twitter.com/ejravv"
+
+[[params.socialIcons]]
+name = "Rss"
+url = "index.xml"

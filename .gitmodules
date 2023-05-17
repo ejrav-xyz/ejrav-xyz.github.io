@@ -5,3 +5,7 @@
 [submodule "themes/PaperMod"]
 	path = themes/PaperMod
 	url = https://github.com/adityatelange/hugo-PaperMod
+
+[submodule "themes/tailbliss"]
+	path = themes/tailbliss
+	url = git@github.com:nusserstudios/tailbliss
