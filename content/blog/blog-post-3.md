@@ -10,6 +10,7 @@ author: TailBliss
 authorimage: ../assets/images/global/author.webp
 categories: blog
 tags: blog
+series: Test Series
 ---
 __Advertisement :smile:__
 

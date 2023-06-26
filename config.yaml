@@ -11,13 +11,13 @@ darkmode_js:
     - assets/js/darkmode.js
 enableInlineShortcodes: true
 params:
-    author: Nusser Studios
+    author: ejrav.xyz
     authorimage: ../assets/images/global/author.webp
     github: 'https://github.com/nusserstudios'
     facebook: 'https://facebook.com/nusserstudios'
     og_image: /images/tailbliss-cover.png
-    sitename: TailBliss
-    twitter: '@nusserstudios'
+    sitename: ejrav.xyz
+    twitter: '@ejrav_xyz'
     description: TailBliss is Hugo Starter
 markup:
     goldmark:
@@ -26,6 +26,7 @@ markup:
 taxonomies:
     category: Categories
     tag: Tags
+    series: Series
 privacy:
     disqus:
         disable: false

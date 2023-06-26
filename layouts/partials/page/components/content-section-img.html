@@ -1,0 +1,18 @@
+
+<div class="col-span-6">
+
+    <div class="relative pl-4 -mr-40 sm:mx-auto sm:max-w-3xl sm:px-0 lg:h-full lg:max-w-none lg:pl-12 overflow-hidden">
+
+        {{ $hero := resources.GetMatch .Asset }}
+
+        {{ $thumb := ($hero.Fill "400x400 webp q90") }}
+        {{ $large := ($hero.Fill "576x576 webp q90") }}
+
+        <img srcset="
+                        {{- with $thumb.RelPermalink -}}{{.}} 400w{{- end -}}
+                        {{- with $large.RelPermalink -}}, {{.}} 576w{{- end -}}" src="{{ $hero.RelPermalink }}"
+             width="100%" height="" alt="{{ .AssetAlt }}" class="w-full max-w-xl mx-auto rounded-lg"/>
+
+
+    </div>
+</div>
