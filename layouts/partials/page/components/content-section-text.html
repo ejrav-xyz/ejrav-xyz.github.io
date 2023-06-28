@@ -5,6 +5,13 @@
     <p class="mb-4 font-light dark:text-white">
         {{ .Content | safeHTML }}
     </p>
+    {{ if .Points }}
+    <ul class="mb-4 max-w-md text-gray-500 list-disc list-inside dark:text-white">
+    {{ range .Points }}
+        <li class="space-x-3">{{ . }}</li>
+    {{ end }}
+    </ul>
+    {{ end }}
     <p class="mb-4 font-medium dark:text-white">
         {{ .ContentBold | safeHTML }}
     </p>

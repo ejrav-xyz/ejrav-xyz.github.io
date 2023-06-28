@@ -6,19 +6,22 @@ language: en
 description: Services
 Content:
   - Type: content
-    Title: "Cloud infrastructure management and automation"
-    Content: "At ejrav.xyz, we specialize in comprehensive cloud management, automation, and native application development. Our expertise spans across the entire spectrum of cloud services, allowing us to provide tailored solutions for businesses seeking efficient cloud operations."
-    ContentBold: "Cloud management experts. Automation for efficient operations. Native application development excellence."
+    Title: "Streamlined Cloud Infrastructure Management and Automation:"
+    Content: "Efficiently manage and automate your cloud infrastructure with our comprehensive solutions. We optimize resource utilization, automate routine tasks, and enhance operational efficiency for scalability, cost-efficiency, and streamlined operations. Our team of experts will work closely with you to design tailored solutions that align with your business objectives. Experience the full potential of your cloud environment by contacting us today."
+    ContentBold: "Streamline and automate your cloud infrastructure for enhanced efficiency and scalability."
     Link: "/contact"
     LinkText: "Contact Us"
     Asset: "images/home/team_astronauts_05.png"
     AssetAlt: ejrav.xyz - services and products
     TextLeft: true
     IsDark: true
+    Points:
+      - streamline and automate your cloud infrastructure for enhanced efficiency
+      - streamline and automate your cloud infrastructure for enhanced efficiency
   - Type: content
-    Title: "Cloud infrastructure security and policy assessment"
-    Content: "Our vision is to empower businesses by harnessing the full potential of cloud technologies. We strive to be at the forefront of innovation, providing cutting-edge solutions that enable seamless scalability, enhanced security, and improved operational efficiency in the cloud environment."
-    ContentBold: "Empowering businesses through cloud innovation."
+    Title: "Comprehensive Cloud Infrastructure Security and Policy Assessment"
+    Content: "At ejrav.xyz, we prioritize the integrity and protection of your cloud environment. Our comprehensive cloud infrastructure security and policy assessment services involve conducting thorough security assessments to identify potential vulnerabilities. We then implement robust policies tailored to your specific requirements, ensuring compliance and safeguarding your data and infrastructure. Trust us to provide a secure and protected cloud environment for your business operations."
+    ContentBold: "Safeguard your cloud environment with our comprehensive security assessments and policies."
     Link: "/contact"
     LinkText: "Contact Us"
     Asset: "images/home/team_astronauts_05.png"
@@ -26,9 +29,9 @@ Content:
     TextLeft: false
     IsDark: false
   - Type: content
-    Title: "Cloud-native application development"
-    Content: "Our mission is to partner with businesses like yours, understanding your unique needs and challenges, and delivering tailored cloud solutions that drive growth and success. We aim to simplify the complexities of cloud infrastructure management, automation, security, and application development, allowing you to focus on your core business objectives."
-    ContentBold: "Tailored cloud solutions for growth. Simplifying cloud complexities, driving success."
+    Title: "Innovative Cloud-Native Application Development"
+    Content: "Our innovative cloud-native application development services empower businesses to leverage the full potential of cloud-native architectures. By utilizing cutting-edge technologies and industry best practices, we design and build modern, scalable applications that drive innovation, flexibility, and responsiveness. Whether you are starting from scratch or migrating existing applications, our team of experts ensures that your applications are optimized for the cloud environment, enabling seamless scalability and enhanced performance. Embrace digital transformation with our cloud-native application development solutions that enable you to stay ahead of the competition and meet the evolving needs of your customers."
+    ContentBold: "Empower your business with innovative cloud-native application development solutions."
     Link: "/contact"
     LinkText: "Contact Us"
     Asset: "images/home/team_astronauts_05.png"

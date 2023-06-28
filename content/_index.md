@@ -15,7 +15,7 @@ Content:
     Asset: "images/home/astronaut_box_02.png"
   - Type: hero
     TestimonialAsset: "images/home/astronaut_box_04.png"
-    TestimonialContent: "... quickly understood our needs and designed a secure and scalable cloud infrastructure that aligned perfectly with our goals. The migration process was seamless, and their ongoing support has been outstanding..."
+    TestimonialContent: "The global cloud computing market size was valued at $569.31 billion in 2022 & is projected to grow from $677.95 billion in 2023 to $2,432.87 billion by 2030"
     ContentTitle: Our mission
     ContentList:
       - Is to revolutionize the way businesses leverage cloud technologies. Through cutting-edge cloud automation and cloud-native application development, we empower organizations to achieve operational excellence, scalability, and innovation in the digital era.
@@ -25,7 +25,7 @@ Content:
     Title: "Our Services"
     Content: "Our expertise lies in efficiently managing and optimising cloud resources, automating workflows, ensuring security compliance, and creating modern, scalable applications. Partner with us to unlock the full potential of cloud computing, enhance efficiency, strengthen security, and drive innovation."
     ContentBold: "We offer services: cloud infrastructure management and automation, cloud infrastructure security and policy assessment, cloud-native application development"
-    Link: "/contact"
+    Link: "/services"
     LinkText: "Learn more"
     Asset: "images/home/team_astronauts_05.png"
     AssetAlt: ejrav.xyz - services and products
