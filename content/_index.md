@@ -9,7 +9,7 @@ SubscribeForm:
   FormId: "6d96025f-8adc-41e9-aa3c-da961f85683b"
 Content:
   - Type: claim
-    Title: "Ejrav.Xyz"
+    Title: "CloudMason.Tech"
     Claim: "Unleashing the Power of Cloud: Redefining Your Digital Landscape"
     LongClaim: "We revolutionize cloud infrastructure through innovative software consulting. We empower businesses with scalable, secure solutions, driving growth and enabling digital transformation."
     Asset: "images/home/astronaut_box_02.png"
@@ -24,12 +24,16 @@ Content:
   - Type: content
     Title: "Our Services"
     Content: "Our expertise lies in efficiently managing and optimising cloud resources, automating workflows, ensuring security compliance, and creating modern, scalable applications. Partner with us to unlock the full potential of cloud computing, enhance efficiency, strengthen security, and drive innovation."
-    ContentBold: "We offer services: cloud infrastructure management and automation, cloud infrastructure security and policy assessment, cloud-native application development"
+    ContentBold: "We offer services: "
     Link: "/services"
     LinkText: "Learn more"
     Asset: "images/home/team_astronauts_05.png"
-    AssetAlt: ejrav.xyz - services and products
+    AssetAlt: cloudmason.tech - services and products
     TextLeft: true
     IsDark: false
+    ContentBullets:
+      - cloud infrastructure management and automation
+      - cloud infrastructure security and policy assessment
+      - cloud-native application development
 
 ---

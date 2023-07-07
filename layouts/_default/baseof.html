@@ -3,9 +3,12 @@
 
 <head>
     {{ partial "head.html" . }}
+
+    {{ if .Site.Params.gtm_id }}{{- partial "gtm.html" . }}{{ end }}
 </head>
 
 <body class="bg-zinc-100 dark:bg-gray-800">
+    {{ if .Site.Params.gtm_id }}{{- partial "gtm_iframe.html" . }}{{ end }}
     {{ partial "nav.html" . }}
     {{ block "main" . }}{{ end }}
     {{ partial "footer" . }}

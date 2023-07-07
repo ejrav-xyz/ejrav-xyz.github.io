@@ -7,14 +7,25 @@
     </p>
     {{ if .Points }}
     <ul class="mb-4 max-w-md text-gray-500 list-disc list-inside dark:text-white">
-    {{ range .Points }}
+        {{ range .Points }}
         <li class="space-x-3">{{ . }}</li>
-    {{ end }}
+        {{ end }}
     </ul>
     {{ end }}
     <p class="mb-4 font-medium dark:text-white">
         {{ .ContentBold | safeHTML }}
     </p>
+
+    {{ if .ContentBullets }}
+        <ul class="max-w-md space-y-1 text-gray-500 list-disc list-inside dark:text-gray-400">
+        {{ range .ContentBullets }}
+            <li class="">
+                {{ . | safeHTML }}
+            </li>
+
+        {{ end }}
+        </ul>
+    {{ end }}
 
     <a href="{{ .Link }}"
        class="inline-flex items-center font-medium text-primary-600 hover:text-primary-800 dark:text-primary-500 dark:hover:text-primary-700">

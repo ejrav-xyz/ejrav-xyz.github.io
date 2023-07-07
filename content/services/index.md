@@ -11,8 +11,8 @@ Content:
     ContentBold: "Streamline and automate your cloud infrastructure for enhanced efficiency and scalability."
     Link: "/contact"
     LinkText: "Contact Us"
-    Asset: "images/home/team_astronauts_05.png"
-    AssetAlt: ejrav.xyz - services and products
+    Asset: "images/home/astronaut_box_04.png"
+    AssetAlt: cloudmason.tech - services and products
     TextLeft: true
     IsDark: true
     Points:
@@ -20,12 +20,12 @@ Content:
       - streamline and automate your cloud infrastructure for enhanced efficiency
   - Type: content
     Title: "Comprehensive Cloud Infrastructure Security and Policy Assessment"
-    Content: "At ejrav.xyz, we prioritize the integrity and protection of your cloud environment. Our comprehensive cloud infrastructure security and policy assessment services involve conducting thorough security assessments to identify potential vulnerabilities. We then implement robust policies tailored to your specific requirements, ensuring compliance and safeguarding your data and infrastructure. Trust us to provide a secure and protected cloud environment for your business operations."
+    Content: "At cloudmason.tech, we prioritize the integrity and protection of your cloud environment. Our comprehensive cloud infrastructure security and policy assessment services involve conducting thorough security assessments to identify potential vulnerabilities. We then implement robust policies tailored to your specific requirements, ensuring compliance and safeguarding your data and infrastructure. Trust us to provide a secure and protected cloud environment for your business operations."
     ContentBold: "Safeguard your cloud environment with our comprehensive security assessments and policies."
     Link: "/contact"
     LinkText: "Contact Us"
-    Asset: "images/home/team_astronauts_05.png"
-    AssetAlt: ejrav.xyz - services and products
+    Asset: "images/home/astronaut_box_07.png"
+    AssetAlt: cloudmason.tech - services and products
     TextLeft: false
     IsDark: false
   - Type: content
@@ -34,8 +34,8 @@ Content:
     ContentBold: "Empower your business with innovative cloud-native application development solutions."
     Link: "/contact"
     LinkText: "Contact Us"
-    Asset: "images/home/team_astronauts_05.png"
-    AssetAlt: ejrav.xyz - services and products
+    Asset: "images/home/astronaut_box_08.png"
+    AssetAlt: cloudmason.tech - services and products
     TextLeft: true
     IsDark: true
 ---

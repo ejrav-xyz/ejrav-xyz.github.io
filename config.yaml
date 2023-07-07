@@ -1,5 +1,5 @@
-baseURL: 'https://ejrav.xyz/'
-title: ejrav.xyz
+baseURL: 'https://cloudmason.tech/'
+title: cloudmason.tech
 languageCode: en-us
 DefaultContentLanguage: en
 enableEmoji: true
@@ -11,14 +11,14 @@ darkmode_js:
     - assets/js/darkmode.js
 enableInlineShortcodes: true
 params:
-    author: ejrav.xyz
-    authorimage: ../assets/images/global/author.webp
-    github: 'https://github.com/nusserstudios'
-    facebook: 'https://facebook.com/nusserstudios'
-    og_image: /images/tailbliss-cover.png
-    sitename: ejrav.xyz
-    twitter: '@ejrav_xyz'
-    description: TailBliss is Hugo Starter
+    author: 'cloudmason.tech'
+    github: 'https://github.com/cloudmason-tech'
+    facebook: 'https://facebook.com/cloudmason.tech'
+    sitename: 'cloudmason.tech'
+    twitter: 'https://twitter.com/cloudmason_tech'
+    instagram: 'https://www.instagram.com/cloudmason.tech'
+    description: 'Unleashing the Power of Cloud: Redefining Your Digital Landscape'
+    gtm_id: 'GTM-53KQ5NC'
 markup:
     goldmark:
         renderer:
@@ -49,6 +49,10 @@ privacy:
     youtube:
         disable: false
         privacyEnhanced: true
+sitemap:
+    changefreq: monthly
+    filename: sitemap.xml
+    priority: 0.5
 module:
     hugoVersion:
         extended: true

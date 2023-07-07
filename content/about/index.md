@@ -9,12 +9,12 @@ description: About Us
 Content:
   - Type: content
     Title: "What we do"
-    Content: "At ejrav.xyz, we specialize in comprehensive cloud management, automation, and native application development. Our expertise spans across the entire spectrum of cloud services, allowing us to provide tailored solutions for businesses seeking efficient cloud operations."
+    Content: "At cloudmason.tech, we specialize in comprehensive cloud management, automation, and native application development. Our expertise spans across the entire spectrum of cloud services, allowing us to provide tailored solutions for businesses seeking efficient cloud operations."
     ContentBold: "Cloud management experts. Automation for efficient operations. Native application development excellence."
     Link: "/contact"
     LinkText: "Contact Us"
-    Asset: "images/home/team_astronauts_05.png"
-    AssetAlt: ejrav.xyz - services and products
+    Asset: "images/home/team_astronauts_04.png"
+    AssetAlt: cloudmason.tech - services and products
     TextLeft: true
     IsDark: true
   - Type: content
@@ -23,8 +23,8 @@ Content:
     ContentBold: "Empowering businesses through cloud innovation."
     Link: "/contact"
     LinkText: "Contact Us"
-    Asset: "images/home/team_astronauts_05.png"
-    AssetAlt: ejrav.xyz - services and products
+    Asset: "images/home/team_astronauts_01.png"
+    AssetAlt: cloudmason.tech - services and products
     TextLeft: false
     IsDark: false
   - Type: content
@@ -33,18 +33,18 @@ Content:
     ContentBold: "Tailored cloud solutions for growth. Simplifying cloud complexities, driving success."
     Link: "/contact"
     LinkText: "Contact Us"
-    Asset: "images/home/team_astronauts_05.png"
-    AssetAlt: ejrav.xyz - services and products
+    Asset: "images/home/team_astronauts_03.png"
+    AssetAlt: cloudmason.tech - services and products
     TextLeft: true
     IsDark: true
   - Type: content
     Title: "Who We Are"
-    Content: "At ejrav.xyz, we are a team of highly skilled professionals with extensive experience in cloud technologies. We pride ourselves on our deep understanding of cloud platforms and our ability to design, implement, and manage robust cloud solutions. Our expertise spans across various domains, enabling us to cater to diverse industries and businesses of all sizes."
+    Content: "At cloudmason.tech, we are a team of highly skilled professionals with extensive experience in cloud technologies. We pride ourselves on our deep understanding of cloud platforms and our ability to design, implement, and manage robust cloud solutions. Our expertise spans across various domains, enabling us to cater to diverse industries and businesses of all sizes."
     ContentBold: "Skilled professionals delivering robust cloud solutions. Expertise spanning diverse industries."
     Link: "/contact"
     LinkText: "Contact Us"
     Asset: "images/home/team_astronauts_05.png"
-    AssetAlt: ejrav.xyz - services and products
+    AssetAlt: cloudmason.tech - services and products
     TextLeft: false
     IsDark: false
 ---
