@@ -1,0 +1,8 @@
+homepage:
+  - type: hero
+    title: "Welcome to the homepage"
+    subtitle: "This is the homepage subtitle"
+    image: "https://source.unsplash.com/random/800x600"
+    cta:
+      label: "Get started"
+      url: "/docs/getting-started"

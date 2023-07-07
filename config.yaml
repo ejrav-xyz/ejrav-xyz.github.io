@@ -1,0 +1,59 @@
+baseURL: 'https://cloudmason.tech/'
+title: cloudmason.tech
+languageCode: en-us
+DefaultContentLanguage: en
+enableEmoji: true
+enableGitInfo: true
+enableRobotsTXT: true
+canonifyURLs: true
+paginate: 9
+darkmode_js:
+    - assets/js/darkmode.js
+enableInlineShortcodes: true
+params:
+    author: 'cloudmason.tech'
+    github: 'https://github.com/cloudmason-tech'
+    facebook: 'https://facebook.com/cloudmason.tech'
+    sitename: 'cloudmason.tech'
+    twitter: 'https://twitter.com/cloudmason_tech'
+    instagram: 'https://www.instagram.com/cloudmason.tech'
+    description: 'Unleashing the Power of Cloud: Redefining Your Digital Landscape'
+    gtm_id: 'GTM-53KQ5NC'
+markup:
+    goldmark:
+        renderer:
+            unsafe: true
+taxonomies:
+    category: Categories
+    tag: Tags
+    series: Series
+privacy:
+    disqus:
+        disable: false
+    googleAnalytics:
+        anonymizeIP: true
+        disable: false
+        respectDoNotTrack: false
+        useSessionStorage: false
+    instagram:
+        disable: false
+        simple: false
+    twitter:
+        disable: false
+        enableDNT: false
+        simple: false
+    vimeo:
+        disable: false
+        enableDNT: false
+        simple: false
+    youtube:
+        disable: false
+        privacyEnhanced: true
+sitemap:
+    changefreq: monthly
+    filename: sitemap.xml
+    priority: 0.5
+module:
+    hugoVersion:
+        extended: true
+        min: 0.104.0
