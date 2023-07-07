@@ -1,0 +1,17 @@
+{{ range . }}
+    {{ if eq .Type "content" }}
+        {{ partial "page/content-section" . }}
+    {{ else if eq .Type "claim" }}
+        {{ partial "page/content-section-claim" . }}
+    {{ else if eq .Type "hero" }}
+        {{ partial "page/content-section-hero" . }}
+    {{ else if eq .Type "contact" }}
+        {{ partial "form/contact-form" . }}
+    {{ end }}
+{{ end }}
+
+
+
+
+
+
