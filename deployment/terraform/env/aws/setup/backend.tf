@@ -3,8 +3,9 @@ terraform {
 
   backend "s3" {
     bucket = "tech-cloudmason-tfstate"
-    prefix = "env/local"
-    region = var.aws_region
+    key    = "env/setup/terraform.tfstate"
+    region = "eu-west-1"
+    profile = "default"
   }
 
 }

@@ -1,16 +1,12 @@
-resource "aws_iam_user" "terraform_iam_user" {
-  name = "${var.namespace}-terraform-ci"
-}
+resource "aws_iam_role" "ci-role" {
+  name               = "${var.namespace}-terraform-ci-role"
+  assume_role_policy = data.aws_iam_policy_document.terraform-ci-role-assume-policy.json
+  inline_policy {
+    name   = "terraform-ci-role-policy"
+    policy = data.aws_iam_policy_document.terraform-ci-role-policy.json
+  }
 
-resource "aws_iam_access_key" "terraform_iam_user_key" {
-  user = aws_iam_user.terraform_iam_user.name
-}
-
-output "secret_key" {
-  value     = aws_iam_access_key.terraform_iam_user_key.secret
-  sensitive = true
-}
-
-output "access_key" {
-  value = aws_iam_access_key.terraform_iam_user_key.id
+  tags = {
+    ns = var.namespace
+  }
 }

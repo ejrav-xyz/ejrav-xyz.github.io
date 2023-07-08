@@ -21,3 +21,5 @@ variable "oidc_thumbprint_list" {
 variable "oidc_repo" {
   type = list(string)
 }
+
+variable "namespace" { type = string }
