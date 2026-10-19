@@ -1,0 +1,157 @@
+:root {
+  --paper: #e6ede4;
+  --ink: #172117;
+  --quiet: #3d4a40;
+  --spine: #d24e1e;
+  --rule: #c5d1c4;
+  --measure: 40rem;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background: var(--spine);
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: "Host Grotesk", "Avenir Next", "Segoe UI", sans-serif;
+  font-weight: 400;
+  font-size: 1.0625rem;
+  line-height: 1.45;
+  border-left: 0.7rem solid var(--spine);
+}
+
+.sheet {
+  max-width: 68rem;
+  margin: 0 auto;
+  padding: 1.5rem 1.25rem 2.5rem;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1.5rem;
+}
+
+h1 {
+  margin: 0;
+  font-weight: 500;
+  font-size: clamp(4.5rem, 15vw, 8.25rem);
+  letter-spacing: -0.055em;
+  line-height: 0.82;
+}
+
+.tld {
+  display: block;
+}
+
+.mail {
+  margin-top: 0.55rem;
+  color: var(--ink);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.18em;
+  white-space: nowrap;
+}
+
+main {
+  margin-top: auto;
+  padding-top: 3.5rem;
+  max-width: var(--measure);
+}
+
+.lede {
+  margin: 0;
+  font-size: 1.35rem;
+  line-height: 1.35;
+  max-width: 22ch;
+}
+
+.who {
+  margin: 0.4rem 0 0;
+  color: var(--quiet);
+}
+
+.work {
+  margin: 2rem 0 0;
+}
+
+.work > div {
+  display: grid;
+  grid-template-columns: 8.5rem 1fr;
+  gap: 0.5rem 1.25rem;
+  padding: 0.85rem 0;
+  border-top: 1px solid var(--rule);
+}
+
+.work > div:last-child {
+  border-bottom: 1px solid var(--rule);
+}
+
+dt {
+  font-weight: 500;
+}
+
+dd {
+  margin: 0;
+  color: var(--quiet);
+}
+
+a {
+  color: inherit;
+}
+
+.work a {
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.16em;
+}
+
+footer {
+  margin-top: 2.5rem;
+}
+
+footer a {
+  color: var(--ink);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.18em;
+}
+
+a:focus-visible {
+  outline: 2px solid var(--ink);
+  outline-offset: 3px;
+}
+
+@media (max-width: 640px) {
+  .top {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .mail {
+    margin-top: 0;
+  }
+
+  main {
+    padding-top: 2.75rem;
+  }
+
+  .work > div {
+    grid-template-columns: 1fr;
+    gap: 0.15rem;
+  }
+}
+
+@media (min-width: 900px) {
+  .sheet {
+    padding: 2.75rem 3.5rem 3rem;
+  }
+}
