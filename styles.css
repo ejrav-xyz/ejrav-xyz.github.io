@@ -130,7 +130,7 @@ a:focus-visible {
   outline-offset: 3px;
 }
 
-@media (max-width: 640px) {
+@media (max-width: 860px) {
   .top {
     flex-direction: column;
     gap: 1rem;
